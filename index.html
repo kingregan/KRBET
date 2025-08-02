@@ -134,4 +134,10 @@
       resultDiv.textContent = `Umeweka dau la TZS ${amount.toFixed(2)} kwenye mechi "${match}" kwa timu "${team}".`;
 
       // Reset fomu
-      e.target.re
+      e.target.reset();
+      teamSelect.innerHTML = '<option value="" disabled selected>-- Chagua Timu --</option>';
+    });
+  </script>
+
+</body>
+</html>
